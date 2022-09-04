@@ -1,0 +1,102 @@
+.build_website{
+    margin-bottom: 90px;
+}
+.build_website_text{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.build_website_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.build_website_card{
+    flex-basis: 32%;
+    height: 277px;
+    border-radius: 5px;   
+    background: #C96408;
+    text-align: center;
+}
+.build_website_card::before{
+    
+}
+.build_website_card:nth-child(2){
+    background: #7937BB;
+}
+.build_website_card:nth-child(3){
+    background: #3775ED;
+}
+.build_website_card:nth-child(4){
+    flex-basis: 100%;
+    height: 347px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    background: url(/img/build_card/big-last-card-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div_build_website_card-img{
+    height: 62px;
+    width: 62px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: #C96408;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+.div_build_website_card-img-2{
+    background: #7937BB;
+}
+.div_build_website_card-img-3{
+    background: #3775ED;
+}
+.build_website_card-title{
+    font-family: "Aeonik Bold";
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+.build_website_card-text{
+    font-family: "Aeonik Light";
+    font-size: 18px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+@media (max-width: 999px){
+    .build_website_cards{
+        justify-content: center;
+    }
+    .build_website_card{
+        flex-basis: 100% !important;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .build_website_card:nth-child(4){
+        margin-top: 0px;
+        height: 387px;
+    }
+    .last-build_website_card-title{
+        font-size: 24px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .last-build_website_card-text{
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px){
+    .build_website_card:nth-child(4){
+        background: url(/img/build_card/last-card-bg.png) no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}

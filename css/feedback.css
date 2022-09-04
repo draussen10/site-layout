@@ -1,0 +1,49 @@
+.feedback{
+    margin-top: 61px;
+    margin-bottom: 157px;
+    text-align: center;
+}
+.feedback-p{
+    margin-bottom: 72px;
+}
+.feedback_cards{
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feedback_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 32%;
+    background-color: #1A1919;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.feedback_text{
+    margin: 18px 22px;
+    font-size: 14px;
+    font-family: "Aeonik Light", sans-serif;
+}
+.feedback-author{
+    margin-left: 20px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.feedback-author-name{
+    margin-left: 12px;
+    font-size: 16px;
+}
+@media (max-width: 999px){
+    .feedback_card{
+        flex-basis: 48%;
+    }
+}
+@media (max-width: 567px){
+    .feedback_card{
+        flex-basis: 100%;
+    }
+}

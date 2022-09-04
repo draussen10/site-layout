@@ -1,0 +1,125 @@
+.people{
+    margin-top: 50px;
+    margin-bottom: 86px;
+    
+}
+.people_cards{
+    margin-top: 77px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.people_card{
+    margin-top: 25px;
+    position: relative;
+    flex-basis: 23%;
+}
+.avatar{
+    border-radius: 10px;
+}
+.people-title{
+    font-size: 20px;
+}
+.bottom_row{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 75px;
+    width: 100%;
+    background: rgba(9, 7, 7, 0.4);
+    backdrop-filter: blur(25px);
+    border-radius: 0px 0px 5px 5px;
+}
+.people-title{
+    display: block;
+    margin: 9px 20px;
+}
+.bottom_row_row{
+    font-size: 14px;
+    margin: 9px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom_row_row>span{
+    margin-left: 28px;
+}
+.span-1::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    background: url(/img/people/social-icon/social-icon-1.png);
+}
+.span-2::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    background: url(/img/people/social-icon/social-icon-2.png);
+}
+.span-3::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    background: url(/img/people/social-icon/social-icon-3.png);
+}
+.span-4:before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    background: url(/img/people/social-icon/social-icon-4.png);
+}
+.span-5:before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    background: url(/img/people/social-icon/social-icon-3.png);
+}
+.span-6:before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    background: url(/img/people/social-icon/social-icon-1.png);
+}
+.people-button{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 150px;
+    background-color: #3775ED;
+    border-color: #3775ED;
+}
+@media (max-width: 999px){
+    .people_card{
+        flex-basis: 48%;
+    }
+    .avatar{
+        width: 100%;
+    }
+}
+@media (max-width: 567px){
+    .people_card{
+        flex-basis: 100%;
+    }
+    .avatar{
+        width: 100%;
+    }
+}

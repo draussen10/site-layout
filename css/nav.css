@@ -1,0 +1,26 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    padding: 19px 0;
+    z-index: 100;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_link{
+    margin-left: 46px;
+}
+
+@media (max-width: 999px){
+    .nav_text{
+        display: none;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+}
